@@ -12,6 +12,7 @@ Page({
   },
 
   add() {
+    if (!this.data.inputValue) return
     app.todos = app.todos.concat([
       {
         text: this.data.inputValue,
