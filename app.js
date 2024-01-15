@@ -1,9 +1,9 @@
 App({
-  // todos: [
-  //   { text: '你好呀 熊老师', completed: true },
-  //   { text: '我是中班班长', completed: true },
-  //   { text: '一起学习 支付宝小程序', completed: false },
-  // ],
+  todos: [
+    { text: '你好呀 熊老师', completed: true },
+    { text: '我是中班班长', completed: true },
+    { text: '一起学习 支付宝小程序', completed: false },
+  ],
 
   userInfo: null,
 
