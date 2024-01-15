@@ -12,6 +12,7 @@ Page({
   },
   // 监听生命周期回调 onLoad
   onLoad() {
+    console.log('renderer', this.renderer) // 判断当前页面或自定义组件的实际渲染引擎
     // 获取用户信息并存储数据
     app.getUserInfo().then(
       user => {
